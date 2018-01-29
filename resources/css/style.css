@@ -1,0 +1,139 @@
+
+/* General rules */
+div {
+  border:solid 1px black;
+}
+
+html {
+  font-size:16px;
+  font-family:sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 2rem 1.5rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width:100%;
+}
+
+video {
+  max-width: 100%;
+}
+
+.image-container {
+  max-width:60%;
+  padding-right:1.5rem;
+}
+
+/* Logo and navigation bar */
+
+.navbar {
+  top:0;
+  width: 100%;
+  display:flex;
+  height: 4rem;
+  background-color:lightblue;
+  position:fixed;
+  z-index: 1;
+  align-items:center;
+  justify-content: space-between;
+  }
+
+.logo {
+  display:flex;
+  align-items:center;
+  flex-grow:1;
+}
+
+.logo img {
+  height: 2rem;
+  padding-left: 1.5rem;
+}
+
+nav {
+  padding-right: 1.5rem;
+}
+
+nav span {
+  padding-left: 1rem;
+}
+
+/* Top banner */
+
+.container.starthere {
+  margin-top: 4rem;
+  display:flex;
+  background-color:lightcoral;
+  align-items: center;
+}
+
+/* Information */
+
+.container.information {
+  display:flex;
+  background-color:violet;
+  align-items:flex-start;
+  padding-top:1rem;
+}
+
+.information .image-container {
+  padding-top:1rem;
+}
+
+.infos {
+  width:40%;
+}
+
+.info {
+  display:flex;
+  align-items: center;
+}
+
+.info img {
+  width:35%;
+  height:100%;
+  padding:1rem;
+}
+
+
+
+
+/* Start learning */
+
+.startlearning {
+  background-color:lightblue;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left:2rem;
+  padding-right:2rem;
+  }
+
+.subjects {
+  padding:1rem 1.5rem;
+  background-color:pink;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.subject {
+  padding: 1rem;
+  width:30%;
+}
+
+/* Logo and navigation bar */
+
+footer {
+  padding: 1rem 0rem 4rem 1.4rem;
+  display:flex;
+  background-color:lightblue;
+  align-items:center;
+  justify-content: space-between;
+  }
