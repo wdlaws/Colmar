@@ -4,6 +4,8 @@
 <head>
   <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kreon|Ubuntu:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Colmar Academy</title>
 </head>
 
@@ -15,14 +17,16 @@
 
   <div class="logo">
     <img src="./resources/images/ic-logo.svg">
-    <span id="logotext">Colmar Academy</span>
+    <div class="logotext">
+      <span>COLMAR</span><span>ACADEMY</span>
+    </div>
   </div>
 
   <nav>
-    <span>On campus</span>
-    <span>Online</span>
-    <span>For companies</span>
-    <span>Sign in</span>
+    <span> <a href="#">On campus</a></span>
+    <span> <a href="#">Online</a></span>
+    <span> <a href="#">For companies</a></span>
+    <span> <a href="#">Sign in</a></span>
   </nav>
 
 </div>
@@ -36,8 +40,8 @@
 
     <div class="herotext">
       <h1>Learn something new everyday</h1>
-      <h3>Every day's a school day for our lucky, attractive students.</h3>
-      <p id="button">Start here</p>
+      <h4>Every day's a school day for our lucky, attractive students.</h4>
+      <p id="button"> <a href="#">Start here</a></p>
     </div>
   </div>
 
@@ -45,7 +49,7 @@
   <div class="container information">
      <div class="image-container">
        <img src="./resources/images/information-main.jpg" alt="Colmar students working outside">
-       <h1>It doesn't hurt to keep practicing</h1>
+       <h2>It doesn't hurt to keep practicing</h2>
        <p>"I'm telling you, Colmar is the shizzle. I went there, and now I have a really totally amazing job. Sure, the fees are exorbitant. But over the course of a 40-year career, you can probably pay them back eventually."</p>
        <p id="reference">Emanuel, Sr Strategist at Hiring.com</p>
      </div>
@@ -54,25 +58,25 @@
         <div class="info">
           <img src="./resources/images/information-orientation.jpg" alt="orientation">
           <div class="infotext">
-            <h3>Orientation date</h3>
+            <h3> <a href="#">Orientation date</a></h3>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-            <p id="readmore">Read more</p>
+            <p id="readmore"> <a href="#">Read more</a></p>
           </div>
         </div>
         <div class="info">
           <img src="./resources/images/information-campus.jpg" alt="orientation">
           <div class="infotext">
-            <h3>Our campus</h3>
+            <h3> <a href="#">Our campus</a></h3>
             <p>Find which campus is close by you</p>
-            <p id="readmore">Read more</p>
+              <p id="readmore"> <a href="#">Read more</a></p>
           </div>
         </div>
         <div class="info">
           <img src="./resources/images/information-guest-lecture.jpg" alt="orientation">
           <div class="infotext">
-            <h3>Our guest lecture</h3>
+            <h3> <a href="#">Our guest lecture</a></h3>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-            <p id="readmore">Read more</p>
+            <p id="readmore"> <a href="#">Read more</a></p>
           </div>
         </div>
       </div>
@@ -87,42 +91,42 @@
     <div class="subject">
       <img src="./resources/images/course-software.jpg" alt="software">
       <h3>Software engineering</h3>
-      <p>COURSES</p>
+      <p>COURSES<p>
       <p>Web Development, Mobile Development, iOT, APIs</p>
     </div>
 
     <div class="subject">
       <img src="./resources/images/course-computer-art.jpg" alt="art">
       <h3>Computer art</h3>
-      <p>COURSES</p>
+      <p>COURSES<p>
       <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
     </div>
 
     <div class="subject">
       <img src="./resources/images/course-design.jpg" alt="design">
       <h3>Design</h3>
-      <p>COURSES</p>
+      <p>COURSES<p>
       <p>User Experience Design, User Research, Visual Design</p>
     </div>
 
     <div class="subject">
       <img src="./resources/images/course-data.jpg" alt="data">
       <h3>Data</h3>
-      <p>COURSES</p>
+      <p>COURSES<p>
       <p>Data Science, Big Data, SQL, Data Visualization</p>
     </div>
 
     <div class="subject">
       <img src="./resources/images/course-business.jpg" alt="business">
       <h3>Business</h3>
-      <p>COURSES</p>
+      <p>COURSES<p>
       <p>Product Development, Business Development, Startup</p>
     </div>
 
     <div class="subject">
       <img src="./resources/images/course-marketing.jpg" alt="marketing">
       <h3>Marketing</h3>
-      <p>COURSES</p>
+      <p>COURSES<p>
       <p>Analytics, Content Marketing, Mobile Marketing</p>
     </div>
   </div>
@@ -130,31 +134,47 @@
 </div>
 
 <!-- Thesis -->
+<div class="container information" id="thesis">
+  <h2>Thesis Exhibit</h2>
 
-  <div class="container information">
-     <div class="image-container">
-       <video src="./resources/videos/thesis.mp4" alt="thesis video" controls></video>
-         <h3>Reimagine urban</h3>
-         <p>"If you study here, you'll learn how to use silly words like 'reimagine'."</p>
-    </div>
+    <div class="thesis-content">
+      <div class="image-container">
+        <div class="video-container">
+          <video id="vid" src="./resources/videos/thesis.mp4" alt="thesis video" onclick="play();"></video>
+           <a href="javascript:void(0)" onclick="this.style.display = 'none'; document.getElementById('hidden').style.display = 'block';playVid()"><i class="fa fa-play-circle fa-5x"></i></a>
+           <div id="hidden" style="display: none"> </div>
 
-      <div class="infos">
-        <div class="info">
-          <img src="./resources/images/thesis-fisma.jpg" alt="orientation">
-          <div class="infotext">
-            <h3>Fisma: Design and Prototype</h3>
-            <p>Designer showcase of new prototype product</p>
-          </div>
+<!-- Script for play video -->
+<script>
+var vid = document.getElementById("vid");
+
+function playVid() {
+    vid.play();
+}
+</script>
+<!-- End of script -->
+
         </div>
-        <div class="info">
-          <img src="./resources/images/thesis-now-and-then.jpg" alt="orientation">
-          <div class="infotext">
-            <h3>Now and then</h3>
-            <p>Research study about New York</p>
-          </div>
-        </div>
-
+        <h3>Reimagine urban</h3>
+        <p>"If you study here, you'll learn how to use silly words like 'reimagine'."</p>
       </div>
+      <div class="infos">
+         <div class="info">
+           <img src="./resources/images/thesis-fisma.jpg" alt="orientation">
+           <div class="infotext">
+             <h3> <a href="#">Fisma: Design and Prototype</a></h3>
+             <p>Designer showcase of new prototype product</p>
+           </div>
+         </div>
+         <div class="info">
+           <img src="./resources/images/thesis-now-and-then.jpg" alt="orientation">
+           <div class="infotext">
+             <h3> <a href="#">Now and then</a></h3>
+             <p>Research study about New York</p>
+           </div>
+         </div>
+      </div>
+   </div>
     </div>
 
 <!-- Footer -->
@@ -166,8 +186,8 @@
   </div>
 
   <nav>
-    <span>Terms</span>
-    <span>Privacy</span>
+    <span> <a href="#">Terms</a></span>
+    <span> <a href="#">Privacy</a></span>
   </nav>
 
 </footer>
