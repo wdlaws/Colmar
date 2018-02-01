@@ -1,0 +1,13 @@
+Hi!
+
+Here is my project.
+
+I wanted to draw your attention to the way I have tried incorporate the video. I wanted to overlay a Font-Awesome play button, instead of just adding 'controls' to the video tag.
+
+This proved tricky! I have just about achieved it, by using some basic Javascript to get the icon to perform two function: 1. On click the video plays. 2. On click the icon disappears.
+
+I am sure there must be a better way, but it really is a bit beyond the scope of what we have learned so far. I am looking forward to continuing my learning, especially when it comes to Javascript!
+
+Thanks,
+
+Will  

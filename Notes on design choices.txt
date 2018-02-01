@@ -1,0 +1,20 @@
+Welcome to the new website for Colmar Academy!
+
+I have used Colmar's logos and the photographs supplied for the site as inspiration for the design, colour and typography choices throughout the site.
+
+Colmar has an interesting logo, combining a heraldic lion icon, which has a very traditional feel, with a clean, modern, sans serif typeface.
+
+I echoed this blend of traditional and modern throughout the site.
+
+The base font used is Ubuntu, which is a sans serif font that has a modern feel and is very easy to read. It will be suitable for longer pieces of text, such as blogs, in due course.
+
+I have paired Ubuntu with Kreon. This is a serif font that looks more traditional and evokes the typography used in newspapers and heavyweight academic journals. However, it is only used for headings on the website, which prevents it from giving the site a feel that is too old-fashioned.
+
+I have chosen a sophisticated colour palette, based around two core colours: dark grey and a shade of teal. Teal is a calming colour and has a less severe visual impact than, for example, the shades of red used on Harvard's website. It feels serious without being overly formal, and using lighter tones of the same base colour can brighten up the design without coming across as too frivolous (see the background used in the 'Start Learning' section). Crucially, I have kept the number of colours used to a minimum, so that the use of colour does not become distracting.
+
+Finally, I have added a few subtle stylistic features that really lift the site, making it more engaging and visually unique. I've used curved edges on the diagonally opposite corners of images, which softens the overall appearance of the site's grid structure. Animated transitions have been added to interactive elements, delivering a pleasing user experience and encouraging interaction, but without being too showy or distracting.
+
+I hope you are happy with my design choices!
+
+
+Will
