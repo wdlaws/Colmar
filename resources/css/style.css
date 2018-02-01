@@ -415,6 +415,7 @@ nav span {
   background-color:white;
   border-radius:50px 0px;
   box-shadow: 0px 2px 10px rgb(0,128,128);
+  cursor:pointer;
   }
 
 .subject img {
