@@ -124,7 +124,7 @@ header {
   align-items:center;
   justify-content: space-between;
   background-color:white;
-  border-bottom: 1px solid rgb(0,128,128);
+  border-bottom: 1px solid rgb(230, 255, 255);
   box-shadow: 0px 2px 10px rgb(0,128,128);
   }
 
@@ -215,7 +215,7 @@ nav span {
   }
 
 .herotext p {
-  background-color: darkslategray;
+  background-color: rgb(0,128,128);
   width:60%;
   text-align:center;
   padding:0.5rem;
@@ -226,7 +226,7 @@ nav span {
 .starthere p:hover {
   width:60%;
   cursor:pointer;
-  background-color:rgb(0,128,128);
+  background-color:darkslategray;
   border-radius:15px 0px;
   }
 
