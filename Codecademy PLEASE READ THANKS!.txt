@@ -1,12 +1,14 @@
 Dear Codecademy,
 
-Here is my Colmar Academy project.
+Here is my Colmar Academy project. A few points to note:
 
-In index.html, you will note that I tried playing with Javascript to create a play-button overlay on the video, using a Font-Awesome icon. I think I need to learn a bit more about Javascript to implement this sort of thing properly.
+1. There is a 64px gap specified on the wireframe, for the gap between information boxes on the mobile version. This looked weird to me - it doesn't match how the wireframe looks either, so I suspect it could be a typo on the wireframe. I made the gap narrower. 
 
-The file named index2.html has a simpler implementation of the video using HTML5 'controls', with the play icon moved to the title of the video.
+2. In index.html, you will note that I tried playing with Javascript to create a play-button overlay on the video, using a Font-Awesome icon. I think I need to learn a bit more about Javascript to implement this sort of thing properly.
 
-I have also included a separate note on my design choices.
+3. The file named index2.html has a simpler implementation of the video using HTML5 'controls', with the play icon moved to the title of the video.
+
+4. I have also included a separate note on my design choices.
 
 All the best!
 
