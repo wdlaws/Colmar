@@ -81,29 +81,63 @@ p {
 
 
                   /*General media queries */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1024px) {
+
+  img {
+    border-radius:0px 35px;
+  }
+
+h1 {
+  font-size:2.2rem;
+  }
+
+h2 {
+  font-size:1.9rem;
+  }
+
+h3 {
+  padding-top:1rem;
+  font-size:1.3rem;
+  }
+
+h4 {
+  font-size:1.1rem;
+  }
+
+}
+
+#readmore {
+  padding-bottom:1rem;
+}
+
+.thesis-content .infotext {
+  padding-bottom:1rem;
+}
+
+@media only screen and (max-width: 650px) {
+
+  .thesis-content .infotext {
+    padding-bottom:0;
+  }
 
   img {
     border-radius:0px;
   }
 
 h1 {
-  font-size:2.7rem;
   padding-bottom:2rem;
 }
 
 h2 {
-  font-size:2.4rem;
   padding-bottom: 1rem;
 }
 
 h3 {
-  font-size:1.7rem;
+  padding-top:0;
   padding-bottom: 0.5rem;
 }
 
 h4 {
-  font-size:1.25rem;
   padding-bottom:2rem;
 }
 
@@ -111,7 +145,13 @@ h4 {
   padding:0;
 }
 
+#readmore {
+  padding-bottom:0;
 }
+
+
+}
+
 /* Logo and navigation bar */
 
 header {
@@ -166,7 +206,7 @@ nav span {
 
               /* Media queries for this section */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 650px) {
   .desktop {
     display:none;
   }
@@ -211,7 +251,7 @@ nav span {
   max-width:40%;
   display:flex;
   flex-direction: column;
-  
+
   }
 
 .herotext p {
@@ -238,7 +278,7 @@ nav span {
 
         /* Media queries for this section */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 650px) {
   .starthere {
     flex-direction: column;
 
@@ -334,8 +374,26 @@ nav span {
 }
 
               /* Media queries for this section */
+@media only screen and (max-width: 1024px) {
 
-@media only screen and (max-width: 470px) {
+.info:hover {
+  border-radius: 35px 0px;
+}
+
+.info {
+  border-radius: 0 35px;
+}
+
+.info:hover img {
+  border-radius:30px 0px;
+  opacity:1;
+}
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
   .information {
     padding-top:0;
     padding-bottom:1rem;
@@ -442,7 +500,7 @@ nav span {
 
       /* Media queries for this section */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 650px) {
 
   .subject:hover {
     border-radius:10px 0px;
@@ -524,7 +582,7 @@ video {
 
 /* Media queries for this section */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 650px) {
   .video-container a {
     top:30%;
   }
@@ -554,7 +612,7 @@ footer a:hover{
 
 /* Media queries for this section */
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 650px) {
    footer { padding: 2rem 0rem 2rem 1rem;
   }
 }

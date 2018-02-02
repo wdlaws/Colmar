@@ -1,0 +1,13 @@
+Dear Codecademy,
+
+Here is my Colmar Academy project.
+
+In index.html, you will note that I tried playing with Javascript to create a play-button overlay on the video, using a Font-Awesome icon. I think I need to learn a bit more about Javascript to implement this sort of thing properly.
+
+The file named index2.html has a simpler implementation of the video using HTML5 'controls', with the play icon moved to the title of the video.
+
+I have also included a separate note on my design choices.
+
+All the best!
+
+will
