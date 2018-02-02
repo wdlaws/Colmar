@@ -50,9 +50,13 @@ a:hover {
   cursor:pointer;
 }
 
+/* Because all links are currently set to '#', this visited state is disabled, so that the hover state continues to function during homepage testing, even if the tester has clicked one of the links.
+
 a:visited {
   color:rgb(0, 77, 77);
 }
+
+*/
 
 .container {
   padding: 2rem 1.5rem;
