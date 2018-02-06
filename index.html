@@ -160,9 +160,10 @@
     <div class="thesis-content">
       <div class="image-container">
         <div class="video-container">
+          <a href="javascript:void(0)" onclick="this.style.display = 'none'; document.getElementById('hidden').style.display = 'block';playVid()">
+            <i class="fa fa-play-circle fa-5x"></i>
+          </a>
           <video id="vid" src="./resources/videos/thesis.mp4" alt="Short video clip of modern building" onclick="play();"></video>
-           <a href="javascript:void(0)" onclick="this.style.display = 'none'; document.getElementById('hidden').style.display = 'block';playVid()"><i class="fa fa-play-circle fa-5x"></i></a>
-           <div id="hidden" style="display: none"> </div>
         </div>
 
 <!-- Script for play video -->
